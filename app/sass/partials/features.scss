@@ -1,0 +1,17 @@
+.features {
+	padding: 170px 0 125px 0;
+	background: black;
+	.section-title {
+		color: white;
+		text-transform: uppercase;
+		text-align: center;
+		&:after {
+			content: url(../img/after-line.png);
+			display: block;
+			padding-top: 50px;
+		}
+	}
+	.feature-list {
+		padding-top: 60px;
+	}
+}
