@@ -1,0 +1,28 @@
+header {
+	margin-top: 20px;
+	.logo {
+		float: left;
+		font-size: 28px;
+		text-align: center;
+		line-height: 0.9;
+		color: white;
+
+		a {
+			padding: 30px;
+			color: white;
+			background: #04453F; 
+			border-radius: 1000px;
+		}
+		span {
+			display: block;
+		}
+	}
+	.main-nav  {
+		float: right;
+		margin-top: 50px;
+		li {
+			display: inline-block;
+			padding: 10px 20px;
+		}
+	}
+}
